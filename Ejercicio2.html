@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio 2 - Unidad 4 - Módulo 3</title>
+</head>
+
+<body>
+    <center>
+        <h3>Ejercicio 2 - Unidad 4 - Módulo 3</h3>
+        <p>Deje su mensaje</p>
+        <p><textarea name="mensaje" rows="20" cols="70" placeholder="Ingrese su mensaje"
+                onkeyup="countChars(this);"></textarea></p>
+        <b>
+            <p id="contador">Caracteres 0</p>
+        </b>
+    </center>
+
+    <script>
+        function countChars(obj) {
+            document.getElementById("contador").innerHTML = ' Caracteres ' + obj.value.length;
+        }
+    </script>
+
+</body>
+
+</html>

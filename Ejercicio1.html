@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="Ejercicio1.css">
+    <title>Ejercicio 1 - Unidad 4 - Módulo 3</title>
+</head>
+
+<body>
+    <center>
+        <h3>Ejercicio 1 - Unidad 4 - Módulo 3</h3>
+        <p>
+            <button class="button-cyan" id="1" class="fondo1" onclick="cambiar_fondo(id)">Cyan</button>
+            <button class="button-green" id="2" class="fondo2" onclick="cambiar_fondo(id)">Green</button>
+            <button class="button-grey" id="3" class="fondo3" onclick="cambiar_fondo(id)">Grey</button>
+        </p>
+    </center>
+
+    <script>
+        function cambiar_fondo(id) {
+            document.body.className = 'fondo' + id;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.button-cyan {
+              background-color:cyan;
+              width: 150px;
+              height: 150px;
+              border: solid 0.5px black;
+              outline: none;
+              cursor: pointer;
+              font-size: medium;
+              font-weight: bold;
+             }
+
+.button-green{
+              background-color: greenyellow;
+              width: 150px;
+              height: 150px;
+              border: solid 0.5px black;
+              outline: none;
+              cursor: pointer;
+              font-size: medium;
+              font-weight: bold;
+             }
+
+.button-grey{
+             background-color: grey;
+             width: 150px;
+             height: 150px;
+             border: solid 0.5px black;
+             outline: none;
+             cursor: pointer;
+             font-size: medium;
+             font-weight: bold;
+            }
+
+.fondo1{
+        background-color: cyan;
+       }
+
+.fondo2{
+        background-color: greenyellow;
+       }
+
+.fondo3{
+        background-color: grey;
+       }
